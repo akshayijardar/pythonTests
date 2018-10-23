@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180829 22:01:04.869" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="C:\Development\robot-scripts\FinalTests\Tests" id="s1" name="Tests">
+<suite source="C:\Development\robot-scripts\FinalTests\Tests\abu.robot" id="s1-s1" name="Abu">
+<test id="s1-s1-t1" name="TestCaseAbu">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://mail.google.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180829 22:01:05.636" level="INFO">Opening browser 'chrome' to base url 'https://mail.google.com'.</msg>
+<status status="PASS" endtime="20180829 22:01:21.553" starttime="20180829 22:01:05.636"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>TestOK</arg>
+</arguments>
+<status status="PASS" endtime="20180829 22:01:21.555" starttime="20180829 22:01:21.554"></status>
+</kw>
+<status status="PASS" endtime="20180829 22:01:21.555" critical="yes" starttime="20180829 22:01:05.635"></status>
+</test>
+<status status="PASS" endtime="20180829 22:01:21.561" starttime="20180829 22:01:04.935"></status>
+</suite>
+<suite source="C:\Development\robot-scripts\FinalTests\Tests\googleTests.robot" id="s1-s2" name="googleTests">
+<test id="s1-s2-t1" name="TC12">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.google.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180829 22:01:21.577" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<status status="PASS" endtime="20180829 22:01:35.240" starttime="20180829 22:01:21.577"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>TestOK</arg>
+</arguments>
+<status status="PASS" endtime="20180829 22:01:35.242" starttime="20180829 22:01:35.241"></status>
+</kw>
+<status status="PASS" endtime="20180829 22:01:35.242" critical="yes" starttime="20180829 22:01:21.575"></status>
+</test>
+<status status="PASS" endtime="20180829 22:01:35.245" starttime="20180829 22:01:21.565"></status>
+</suite>
+<status status="PASS" endtime="20180829 22:01:35.252" starttime="20180829 22:01:04.877"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tests" pass="2">Tests</stat>
+<stat fail="0" id="s1-s1" name="Abu" pass="1">Tests.Abu</stat>
+<stat fail="0" id="s1-s2" name="googleTests" pass="1">Tests.googleTests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
